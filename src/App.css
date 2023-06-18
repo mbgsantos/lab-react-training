@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,98 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.IdCard {
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 2rem 0 2rem;
+  padding: 1rem;
+  border: 2px black solid;
+}
+
+.IdCardInfo {
+  font-size: .8rem;
+  padding-left: 3rem;
+}
+
+.IdCardImage {
+  width: 10rem;
+}
+
+.GreetingsInfo {
+  margin: 2rem 2rem 0 2rem;
+  height: 3.5rem;
+  border: 2px black solid;
+  font-size: 2rem;
+  padding-top: .2rem;
+  padding-left: 1rem;
+}
+
+.BoxColorInfo {
+  margin: 2rem 2rem 0 2rem;
+  width: 91rem;
+  height: 8rem;
+  border: 2px black solid;
+  display: flex;
+  justify-content: center;
+}
+
+.BoxColorText {
+  font-size: 1.5rem;
+}
+
+.CreditCards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CreditCardCard {
+  margin: 2rem 1rem 0 2rem;
+  padding: 20px;
+  border-radius: .5rem;
+  width: 26rem;
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CreditImage {
+  width: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.CreditNumbers {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.Stars {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.DriverCard {
+  background-color: rgb(69, 94, 181);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 2rem 0 2rem;
+  height: 14rem;
+  border-radius: 1rem;
+}
+
+.DriverImage {
+  height: 10rem;
+  border-radius: 5rem;
+  margin-right: 1rem;
+}
+
+.even {
+  color: red;
 }
